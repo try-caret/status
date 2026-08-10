@@ -1,7 +1,7 @@
-// Reverse proxy: serves the Upptime status page (GitHub Pages,
-// try-caret.github.io/status) at status.arbium.ai. Exists because the
-// site's HTML links assets under the /status base path — both /x and
-// /status/x must resolve to the same upstream file.
+// Reverse proxy: serves the Upptime status page at status.arbium.ai.
+// The site is built for the domain root (.upptimerc.yml has no baseUrl)
+// but GitHub Pages hosts it under the /status repo subpath, so every
+// incoming path maps onto that prefix.
 const UPSTREAM = 'https://try-caret.github.io/status';
 
 export default {
@@ -10,11 +10,7 @@ export default {
       return new Response('Method not allowed', { status: 405 });
     }
     const url = new URL(request.url);
-    let path = url.pathname;
-    if (path === '/status' || path.startsWith('/status/')) {
-      path = path.slice('/status'.length) || '/';
-    }
-    const resp = await fetch(UPSTREAM + path + url.search, { redirect: 'follow' });
+    const resp = await fetch(UPSTREAM + url.pathname + url.search, { redirect: 'follow' });
     return new Response(resp.body, { status: resp.status, headers: resp.headers });
   },
 };
