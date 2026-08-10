@@ -1,0 +1,11 @@
+{
+  "name": "arbium-status",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-10",
+  "account_id": "e5a211197ff9c09733ded096bf1b9103",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  },
+  "routes": [{ "pattern": "status.arbium.ai", "custom_domain": true }]
+}
