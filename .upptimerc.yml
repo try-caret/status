@@ -11,11 +11,11 @@ sites:
     url: https://docs.arbium.ai
 
 status-website:
-  # Once the Cloudflare CNAME for status.arbium.ai exists, uncomment `cname`
-  # and remove `baseUrl` (baseUrl is only needed while serving from the
-  # github.io subpath).
-  # cname: status.arbium.ai
-  baseUrl: /status
+  # The public URL is https://status.arbium.ai, served by the Cloudflare
+  # Worker in worker/ which proxies every path onto the /status subpath of
+  # try-caret.github.io. So the site is built for the domain root: no
+  # `baseUrl` here, and no `cname` (a GitHub Pages custom domain would 301
+  # github.io requests back to status.arbium.ai and loop the proxy).
   name: Arbium Status
   introTitle: "**Arbium** service status"
   introMessage: Live uptime and incident history for Arbium services, checked every 5 minutes.
