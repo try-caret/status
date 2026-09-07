@@ -22,18 +22,20 @@
     "url": "https://api.arbium.ai/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.arbium.ai.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 342,
-    "timeDay": 43,
-    "timeWeek": 143,
-    "timeMonth": 342,
-    "timeYear": 342,
-    "dailyMinutesDown": {}
+    "time": 334,
+    "timeDay": 66,
+    "timeWeek": 136,
+    "timeMonth": 334,
+    "timeYear": 334,
+    "dailyMinutesDown": {
+      "2026-09-07": 0
+    }
   },
   {
     "name": "Documentation",
