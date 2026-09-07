@@ -1,7 +1,7 @@
 url: https://api.arbium.ai/api/health
-status: up
-code: 200
-responseTime: 43
-lastUpdated: 2026-09-06T23:03:20.619Z
+status: down
+code: 502
+responseTime: 88
+lastUpdated: 2026-09-07T02:46:52.469Z
 startTime: 2026-08-10T17:02:06.047Z
 generator: Upptime <https://github.com/upptime/upptime>
