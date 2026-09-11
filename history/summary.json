@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 193,
-    "timeDay": 353,
-    "timeWeek": 252,
-    "timeMonth": 193,
-    "timeYear": 193,
+    "time": 198,
+    "timeDay": 396,
+    "timeWeek": 280,
+    "timeMonth": 208,
+    "timeYear": 198,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.arbium.ai.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "99.91%",
+    "uptime": "99.92%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.62%",
     "uptimeMonth": "99.91%",
-    "uptimeYear": "99.91%",
-    "time": 312,
-    "timeDay": 131,
-    "timeWeek": 120,
-    "timeMonth": 312,
-    "timeYear": 312,
+    "uptimeYear": "99.92%",
+    "time": 306,
+    "timeDay": 105,
+    "timeWeek": 117,
+    "timeMonth": 320,
+    "timeYear": 306,
     "dailyMinutesDown": {
       "2026-09-07": 38
     }
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 287,
-    "timeDay": 206,
-    "timeWeek": 212,
-    "timeMonth": 287,
-    "timeYear": 287,
+    "time": 285,
+    "timeDay": 221,
+    "timeWeek": 222,
+    "timeMonth": 302,
+    "timeYear": 285,
     "dailyMinutesDown": {}
   }
 ]
